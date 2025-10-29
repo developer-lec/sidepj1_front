@@ -1,14 +1,11 @@
-import { Box, Button, ButtonGroup, Paper, TextField } from '@mui/material';
-import { useState } from 'react';
-
-// ==============================================
-
-// ==============================================
-
-// ==============================================
+import MainHeader from '../../layouts/header';
 
 const HomePage = () => {
-  return <>Home Page</>;
+  return (
+    <>
+      <MainHeader />
+    </>
+  );
 };
 
 export default HomePage;
